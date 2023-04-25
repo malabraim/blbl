@@ -11,6 +11,8 @@
 #include "EnhancedInputSubsystems.h"
 
 #define DiarsPrint(FString s) GEngine->AddOnScreenDebugMessage(-1,1,FColor::Red , s);
+#define IbrahimInt = 12 ;
+
 
 //////////////////////////////////////////////////////////////////////////
 // AsharedproCharacter
