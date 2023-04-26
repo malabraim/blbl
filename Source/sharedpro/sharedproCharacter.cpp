@@ -81,11 +81,6 @@ void AsharedproCharacter::SetupPlayerInputComponent(class UInputComponent* Playe
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Triggered, this, &ACharacter::Jump);
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
 
-		//Moving
-		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AsharedproCharacter::Move);
-
-		//Looking
-		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AsharedproCharacter::Look);
 
 	}
 
